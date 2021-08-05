@@ -1,0 +1,22 @@
+[
+	{
+		"id": "0435361f-d8c3-4303-84bf-124880e98c2d",
+		"name": "Test product 1",
+		"price": 12
+	},
+	{
+		"id": "2f6bbfcb-8ca6-4451-b11a-b638da8e91bd",
+		"name": "Test product 2",
+		"price": 40
+	},
+	{
+		"id": "8cb38c8a-7db9-4e8c-a927-bb26aea0929d",
+		"name": "Ramjam",
+		"price": 500
+	},
+	{
+		"id": "d89bcb19-8db0-4f33-9d5a-3da45f01fc1c",
+		"name": "Mobx",
+		"price": 500
+	}
+]

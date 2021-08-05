@@ -1,0 +1,26 @@
+[
+	{
+		"id": "96a81672-e7db-4f26-bd04-799743421e20",
+		"firstName": "John",
+		"lastName": "Doe",
+		"age": 36
+	},
+	{
+		"id": "1dabff08-c5bb-4c17-955c-3f36d2982fdc",
+		"firstName": "Jane",
+		"lastName": "Doe",
+		"age": 24
+	},
+	{
+		"id": "a39963c7-209a-486e-bb5f-9001e9e080e6",
+		"firstName": "Bob",
+		"lastName": "Dylan",
+		"age": 78
+	},
+	{
+		"id": "16c021dc-1ba6-4d0b-ae5c-f4e7065a372d",
+		"firstName": "Killer",
+		"lastName": "Bob",
+		"age": 40
+	}
+]
