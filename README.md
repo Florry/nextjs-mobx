@@ -13,7 +13,14 @@ export const getServerSideProps = UseMobx(async ({ }, { userStore }) => {
 });
 ```
 
-That's it, users are loaded before markup is rendered. The function can still return data like a normal `getServerSideProps` function in nextjs.
+That's it, users are loaded before markup is rendered. The function can also still return any data like a normal `getServerSideProps` function in nextjs.
+
+## Files of interest
+- [middleware/UseMobx.ts](https://github.com/Florry/nextjs-mobx/blob/main/middleware/UseMobx.ts)
+- [stores/BaseStore.ts](https://github.com/Florry/nextjs-mobx/blob/main/stores/BaseStore.ts#L19)
+- [stores/StoreContext.ts](https://github.com/Florry/nextjs-mobx/blob/main/stores/StoreContext.ts#L13)
+- [pages/index.tsx#L28](https://github.com/Florry/nextjs-mobx/blob/main/pages/index.tsx#L28) simple usage example
+- [pages/products.tsx#L41](https://github.com/Florry/nextjs-mobx/blob/main/pages/products.tsx#L41) "advanced" usage example
 
 ## Notes
 - Stores have to extend `BaseStore`
